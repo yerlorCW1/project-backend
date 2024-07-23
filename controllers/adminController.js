@@ -1,6 +1,6 @@
 // controllers/adminController.js
 const Admin = require("../models/admin");
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcryptjs');
 const jwt = require("jsonwebtoken");
 const SECRET_KEY = process.env.SECRET_KEY;
 
